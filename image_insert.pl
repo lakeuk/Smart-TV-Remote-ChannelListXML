@@ -5,11 +5,12 @@ use DBI;
 use MIME::Base64;
 use File::Slurp;
 
-my $dsn = 'DBI:mysql:tv:localhost:3306';
-my $db_user_name = 'root';
-my $db_password = '';
-my ($id, $password);
-my $dbh = DBI->connect($dsn, $db_user_name, $db_password);
+my $driver = 'SQLite';
+my $database = "smartremote.db";
+my $dsn = "DBI:$driver:dbname=$database";
+my $userid = "";
+my $password = "";
+my $dbh = DBI->connect($dsn, $userid, $password, { RaiseError => 1 }) or die $DBI::errstr;
 
 #variables
 my $imagefile;
@@ -18,7 +19,7 @@ my $imgencode;
 
 print "starting...\n";
 
-my $path  = "E:/files/dave/smart_remote/perl/tvlogos";      # Which path was I asked to list?
+my $path  = "tvlogos";      # Which path was I asked to list?
 my(@current_dir_list);  # *This* directory's entries
   
 opendir DIR, $path or warn "Can't open $path\n";
@@ -27,7 +28,7 @@ closedir (DIR);
 
 my $size = @current_dir_list;
 
-$dbh->do("truncate table tv.base64images;") or die "Huston we have a problem: Can't insert record\n";
+$dbh->do("delete from base64images;") or die "Huston we have a problem: Can't insert record\n";
 
 foreach $imagefile (@current_dir_list)
 {
@@ -38,19 +39,16 @@ my @col_split = split( /\./ ,$imagefile);
 my $filename="$col_split[0]";
 my $filetype="$col_split[1]";
 
-#print "$imagefile - $filename - $filetype\n";
-
 if ($imagefile =~ /.png$/i)
 {
-system("\"E:\\files\\dave\\smart_remote\\base64\\encb64.exe\" \"$path\\$imagefile\"");
+system("\".\\base64\\encb64.exe\" \"$path\\$imagefile\"");
 my $file = "$path\\$imagefile.b64";
 
 my $b24text = read_file($file);
 
 print "$filename\n";
 
-#$dbh->do("INSERT INTO tv.base64images(ImageID,ImageName,ImageType,Base64Image,ImageSource) VALUES ($size,'$filename','$filetype','$b24text','mediaportal');") or die "Huston we have a problem: Can't insert record\n";
-$dbh->do("INSERT INTO tv.base64images(ImageName,ImageType,Base64Image,ImageSource) VALUES ('$filename','$filetype','$b24text','mediaportal');") or die "Huston we have a problem: Can't insert record\n";
+$dbh->do("INSERT INTO base64images(ImageName,ImageType,Base64Image,ImageSource) VALUES ('$filename','$filetype','$b24text','mediaportal');") or die "Huston we have a problem: Can't insert record\n";
 unlink "$path\\$imagefile.b64"; #delete b64 file
 }
 
@@ -60,16 +58,7 @@ $dbh->disconnect();
 
 exit;
 
-
-
-
-
-
-
-
-
-
-#INSERT INTO tv.base64images(
+#INSERT INTO base64images(
 #   ImageID
 #  ,ImageName
 #  ,ImageType
