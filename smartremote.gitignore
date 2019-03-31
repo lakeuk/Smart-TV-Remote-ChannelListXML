@@ -1,0 +1,9 @@
+## Ignore files sourced from other locations
+## Location details in README.md:-
+## /base64
+## /tvlogos
+
+*.png
+*.c
+*.exe
+*.txt
