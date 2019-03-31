@@ -10,17 +10,10 @@ image_insert.pl
 make_smartremoteXML.pl
   extract from database, channel number, name, base64 image
   generate xml
-  
-freesat_2019.xml
+
+smartremote.db
+SQLite database, contains table holding base64 images and table for you to manage your channel listing 
+
+smartremote.xml
   last sample file generated from make_smartremoteXML.pl
-  copy over to folder on phone, import through app
-
-sql.txt
-  random sql against database
-
-
-Missing from repository - mysql database
-
-
-
-
+  copy over to folder on phone, import through remote app
