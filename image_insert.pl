@@ -41,11 +41,13 @@ my $filetype="$col_split[1]";
 
 if ($imagefile =~ /.png$/i)
 {
-system("\".\\base64\\encb64.exe\" \"$path\\$imagefile\"");
+my $infile  = "\".\\$path\\$imagefile\"";
+my $outfile = "\".\\$path\\$imagefile.b64\"";
+system(".\\base64\\b64 -e $infile > $outfile");
+
 my $file = "$path\\$imagefile.b64";
-
-my $b24text = read_file($file);
-
+my $b24text = read_file("$file");
+#print "$infile\n";
 print "$filename\n";
 
 $dbh->do("INSERT INTO base64images(ImageName,ImageType,Base64Image,ImageSource) VALUES ('$filename','$filetype','$b24text','mediaportal');") or die "Huston we have a problem: Can't insert record\n";
