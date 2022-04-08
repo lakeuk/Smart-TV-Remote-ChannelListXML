@@ -3,21 +3,18 @@ Script to generate a channel list XML that can be imported into Android app - Sm
 
 App - https://play.google.com/store/apps/details?id=com.adi.remote.phone&hl=en_GB
 
-ChannelList.csv
-  Set channel numbers, names, image names
+#### ChannelList.csv  
+Set channel numbers, names, image names
 
-smartremote.py
-  Standalone python script to generate xml output that's used as the import xml for the app
+#### smartremote.py  
+Standalone python script to generate xml output that's used as the import xml for the app
 
-smartremote notebook.ipynb
-  JupyterLab notebook version of python script, will also list channels in csv file without a matching image file
+#### smartremote notebook.ipynb  
+JupyterLab notebook version of python script, will also list channels in csv file without a matching image file
 
-mediaportal-uk-logos-master folder
-  location to place files taken from zip sourced at https://github.com/Jasmeet181/mediaportal-uk-logos
+#### mediaportal-uk-logos-master folder  
+location to place files taken from zip sourced at https://github.com/Jasmeet181/mediaportal-uk-logos
 
-smartremote.xml
-  last sample file generated from make_smartremoteXML.pl
+#### smartremote.xml  
+last sample file generated from make_smartremoteXML.pl
   copy over to folder on phone, import through remote app
-
-base64 folder
-  not require for python version, was used for perl version
