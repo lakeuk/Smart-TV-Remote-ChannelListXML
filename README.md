@@ -5,6 +5,8 @@ App - https://play.google.com/store/apps/details?id=com.adi.remote.phone&hl=en_G
 
 ![alt text](https://github.com/lakeuk/Smart-TV-Remote-ChannelListXML/raw/master/README-assets/smartremote-01.jpg)
 
+![Alt text](./README-assets/smartremote-01.jpg?raw=true "Smart Remote")
+
 #### ChannelList.csv  
 Set channel numbers, names, image names
 
