@@ -3,7 +3,7 @@ Script to generate a channel list XML that can be imported into Android app - Sm
 
 App - https://play.google.com/store/apps/details?id=com.adi.remote.phone&hl=en_GB
 
-![Alt text](./README-assets/smartremote-01.jpg?raw=true "Smart Remote" =250x250)
+![Alt text](./README-assets/smartremote-01.jpg?raw=true "Smart Remote")
 
 #### ChannelList.csv  
 Set channel numbers, names, image names
