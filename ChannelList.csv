@@ -32,23 +32,23 @@ Freesat,130,5USA +1,5USA Plus 1,General Entertainment
 Freesat,131,5STAR,5star,General Entertainment
 Freesat,132,5Action,5Action,General Entertainment
 Freesat,133,5Select,5Select,General Entertainment
-Freesat,134,CBS Drama,CBS Drama,General Entertainment
+Freesat,134,Reality Xtra,RealityXtra,General Entertainment
 Freesat,135,CBS Reality,CBS Reality,General Entertainment
 Freesat,136,CBS Reality+1,CBS Reality Plus 1,General Entertainment
-Freesat,137,CBS Justice,CBS Justice,General Entertainment
-Freesat,138,Horror Channel,Horror Channel,General Entertainment
-Freesat,139,Horror Channel+1,Horror Channel Plus 1,General Entertainment
+Freesat,137,Legend,Legend,General Entertainment
+Freesat,138,Horror Xtra,HorrorXtra,General Entertainment
+Freesat,139,Horror Xtra+1,HorrorXtra Plus 1,General Entertainment
 Freesat,141,5STAR+1,5star Plus 1,General Entertainment
 Freesat,142,GREAT! tv,Great TV,General Entertainment
 Freesat,143,GREAT! tv+1,Great TV Plus 1,General Entertainment
 Freesat,144,Pick,Pick,General Entertainment
-Freesat,145,Pick+1,Pick Plus 1,General Entertainment
 Freesat,146,Challenge,Challenge,General Entertainment
 Freesat,147,Sky Arts ,Sky Arts,General Entertainment
 Freesat,148,Food Network,Food Network,General Entertainment
 Freesat,149,Food Network+1,Food Network Plus 1,General Entertainment
 Freesat,150,DMAX,DMAX,General Entertainment
 Freesat,151,DMAX+1,DMAX Plus 1,General Entertainment
+Freesat,154,ITV4+1,ITV4 Plus 1,General Entertainment
 Freesat,155,PBS America,PBS America,General Entertainment
 Freesat,156,W,W,General Entertainment
 Freesat,157,Dave,Dave,General Entertainment
@@ -57,7 +57,6 @@ Freesat,159,Yesterday,Yesterday,General Entertainment
 Freesat,160,Really,Really,General Entertainment
 Freesat,162,BLAZE,Blaze,General Entertainment
 Freesat,164,Together TV,Together TV,General Entertainment
-Freesat,165,Forces TV,Forces TV,General Entertainment
 Freesat,166,HGTV,HGTV,General Entertainment
 Freesat,167,QUEST HD,Quest HD,General Entertainment
 Freesat,168,QUEST +1,Quest Plus 1,General Entertainment
@@ -71,7 +70,7 @@ Freesat,177,Court TV,Court TV,General Entertainment
 Freesat,178,Thats TV,Thats TV,General Entertainment
 Freesat,179,BBC Three,BBC Three,General Entertainment
 Freesat,180,BBC Two,BBC Two,General Entertainment
-Freesat,181,4Music,4Music,General Entertainment
+Freesat,181,E4 Extra,E4 Extra,General Entertainment
 Freesat,200,BBC News HD,BBC News HD,News
 Freesat,201,BBC Parliament,BBC Parliament,News
 Freesat,202,Sky News,Sky News,News
@@ -81,9 +80,11 @@ Freesat,208,Bloomberg Television,Bloomberg TV HD,News
 Freesat,209,NHK World HD,NHK World HD,News
 Freesat,210,CNBC Europe,CNBC,News
 Freesat,212,BBC News,BBC News,News
+Freesat,213,Channels 24,Channels 24,News
 Freesat,214,Arirang TV HD,Arirang HD,News
 Freesat,215,TRT World,TRT World,News
 Freesat,216,GB News HD,GB News HD,News
+Freesat,217,TalkTV HD,TalkTV HD,News
 Freesat,250,SportyStuff TV,SportyStuff TV,Sports
 Freesat,300,Film4,Film4,Movies
 Freesat,301,Film4 + 1,Film4 Plus 1,Movies
@@ -93,7 +94,7 @@ Freesat,304,GREAT! movies classic+1,Great Movies Classic Plus 1,Movies
 Freesat,305,GREAT! movies action,Great Movies Action,Movies
 Freesat,306,Talking Pictures TV,Talking Pictures TV,Movies
 Freesat,500,Spotlight TV,Spotlight TV,Music
-Freesat,501,Box Hits,Box Hits,Music
+Freesat,501,4Music,4Music,Music
 Freesat,502,The Box,The Box,Music
 Freesat,503,KISS,Kiss,Music
 Freesat,504,Magic,Magic TV,Music
@@ -104,8 +105,8 @@ Freesat,602,CITV,CITV,Children
 Freesat,603,POP,Pop,Children
 Freesat,604,POP Max,Pop Max,Children
 Freesat,605,Tiny Pop,Tiny Pop,Children
-Freesat,607,CBBC SD,CBBC,Children
-Freesat,608,CBeebies SD,CBeebies,Children
+Freesat,606,CBBC SD,CBBC,Children
+Freesat,607,CBeebies SD,CBeebies,Children
 Freesat,690,Inspiration TV,Inspiration TV,Special Interest
 Freesat,691,Daystar TV,Daystar HD,Special Interest
 Freesat,692,Revelation,Revelation TV,Special Interest
@@ -117,7 +118,7 @@ Freesat,702,BBC Radio 2,BBC Radio 2,Radio
 Freesat,703,BBC Radio 3,BBC Radio 3,Radio
 Freesat,704,BBC Radio 4,BBC Radio 4,Radio
 Freesat,705,BBC Radio 5 Live,BBC Radio 5 Live,Radio
-Freesat,706,BBC R5L Sports Extra,BBC Radio 5 Live Sports Extra,Radio
+Freesat,706,BBC Radio 5 Sports Extra,BBC Radio 5 Sports Extra,Radio
 Freesat,707,BBC Radio 6 Music,BBC Radio 6 Music,Radio
 Freesat,708,BBC Radio 4 Extra,BBC Radio 4 Extra,Radio
 Freesat,709,BBC Asian Network,BBC Asian Network,Radio
@@ -150,15 +151,15 @@ Freesat,752,RTE Lyric fm,RTE Lyric fm,Radio
 Freesat,753,RTE Raidio na Gaeltachta,RTE Raidio na Gaeltachta,Radio
 Freesat,786,BFBS Radio,BFBS Radio,Radio
 Freesat,790,Trans World Radio UK,Trans World Radio UK,Radio
-Freesat,800,QVC,QVC,Shopping
+Freesat,800,QVC HD,QVC HD,Shopping
 Freesat,801,QVC Beauty,QVC Beauty,Shopping
 Freesat,802,QVC Extra,QVC Extra,Shopping
-Freesat,803,QVC Style,QVC Style,Shopping
+Freesat,803,QVC Style HD,QVC Style HD,Shopping
 Freesat,805,Gems TV,Gems TV,Shopping
 Freesat,807,JewelleryMaker,Jewellery Maker,Shopping
 Freesat,809,TJC,TJC,Shopping
-Freesat,812,Ideal World,Ideal World,Shopping
-Freesat,813,Create And Craft,Create and Craft,Shopping
+Freesat,812,Ideal World HD,Ideal World HD,Shopping
+Freesat,813,Create And Craft HD,Create and Craft HD,Shopping
 Freesat,817,Craft Extra,Craft Extra,Shopping
 Freesat,949,BBC Two HD,BBC Two HD,Regional TV
 Freesat,950,BBC 1 London,BBC One London,Regional TV
